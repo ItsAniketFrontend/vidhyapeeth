@@ -236,7 +236,7 @@ color: #20ac6b;
     padding: 10px 20px;
 }
 
-#content-area4 .col-12{
+/* #content-area4 .col-12{
     display: flex;
     justify-content: space-between;
     margin: 5px 0px;
@@ -251,7 +251,7 @@ color: #20ac6b;
     #content-area4 .col-12 button{
         width: fit-content;
     }
-}
+} */
 
 #content-area4 button{
     padding: 10px 20px;
