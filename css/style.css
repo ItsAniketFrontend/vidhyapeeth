@@ -127,6 +127,7 @@ background-color: transparent !important;
 border-color: #20ac6b;
 font-weight: bold;
 color: #20ac6b;
+width: fit-content;
 }
 #content-area1 button:hover{
     border-color: #104d30;
@@ -218,15 +219,20 @@ color: #20ac6b;
     width:520px;
 }
 
+#content-area4 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #FFF;
+    background-color: #006b3e !important;
+}
+
 #content-area4 .nav-link {
     display: block;
     padding: 0px;
     font-size: 18px;
     font-weight: 500;
-    color: #104d30;
+    color: #000;
     text-decoration: none;
     text-transform: uppercase;
-    background: 0 0;
+    background: 0 !important;
     border: 1px solid #20ac6b;
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
 }
@@ -260,12 +266,13 @@ color: #20ac6b;
     border-color: #20ac6b;
     font-weight: bold;
     color: #20ac6b;
+    width: fit-content;
     }
 
-#content-area4 button:hover{
+/* #content-area4 button:hover{
     border-color: #104d30;
-    color: #104d30;
-    }
+    color: #fff;
+    } */
 
     @media (max-width:576px){
     #content-area4 h3{
