@@ -597,3 +597,36 @@ padding:20px 40px;
         font-size:30px;
         }
 }
+
+.sticky-btn{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    z-index: 100;
+}
+
+.sticky-btn button{
+    background-color: #006b3e;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    animation: sticky 2s infinite;
+}
+
+.sticky-btn button a{
+    color: #ffff;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+@keyframes sticky {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
