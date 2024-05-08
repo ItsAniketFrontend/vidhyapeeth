@@ -631,3 +631,33 @@ padding:20px 40px;
         transform: scale(1);
     }
 }
+
+.thank{
+    background-image: url(../images/thank-you-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.thank h1{
+    font-weight: 600;
+}
+
+.thank p{
+    margin-bottom: 0px;
+    font-weight: 500;
+}
+
+.thank h4{
+    font-weight: 800;
+    margin-bottom: 0px;
+}
+
+.thank li{
+    list-style: none;
+}
+
+.thank li img{
+    padding: 0px 2px;
+}
