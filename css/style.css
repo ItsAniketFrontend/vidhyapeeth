@@ -606,11 +606,11 @@ padding:20px 40px;
 }
 
 .sticky-btn button{
-    background-color: #006b3e;
-    padding: 10px 20px;
+    /* background-color: #cc9900; */
+    /* padding: 10px 20px; */
     border: none;
     color: #fff;
-    border-radius: 30px;
+    /* border-radius: 30px; */
     animation: sticky 2s infinite;
 }
 
@@ -660,4 +660,12 @@ padding:20px 40px;
 
 .thank li img{
     padding: 0px 2px;
+}
+
+.fixed-call-btn{
+    position: fixed;
+    z-index: 200;
+    bottom: 70px;
+    right: 10px;
+    animation: sticky 2s infinite;
 }
