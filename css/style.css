@@ -609,13 +609,11 @@ padding:20px 40px;
     /* background-color: #cc9900; */
     /* padding: 10px 20px; */
     border: none;
-    color: #fff;
     /* border-radius: 30px; */
     animation: sticky 2s infinite;
 }
 
 .sticky-btn button a{
-    color: #ffff;
     font-weight: 500;
     text-decoration: none;
 }
